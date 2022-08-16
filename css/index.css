@@ -11,6 +11,10 @@ nav{
     align-items: center;
     justify-content: space-between;
 }
+
+nav ul li{
+    display: inline-block;
+}
 #text1{
     height: 500px;
     width: auto;
