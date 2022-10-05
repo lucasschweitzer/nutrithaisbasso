@@ -30,6 +30,7 @@ nav ul li:hover{
 
 }
 
+
 .section1{
     position: relative;
     width: 100%;
@@ -42,7 +43,8 @@ nav ul li:hover{
 .section1 img{
     position: absolute;
     top: 10%;
-    right: 15%;
+    right: 8%;
+    border-radius: 150px;
 }
 
 .section1text{
@@ -156,6 +158,6 @@ nav ul li:hover{
         left: 1%;
     }
     .logo2{
-        left: 3%;
+        left: 40%;
     }
 }
