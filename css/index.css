@@ -126,7 +126,7 @@ nav ul li:hover{
     left: 15%;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
     nav{
         margin-left: 50px;
         margin-right: 50px;
