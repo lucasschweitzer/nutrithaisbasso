@@ -134,12 +134,15 @@ nav ul li:hover{
     } 
 
     .section1 img{
-        width: 100px;
+        width: 150px;
     }
 
     .section1text{
-        margin-top: -40px
-        font-size: 12px;
+        position: absolute;
+    top: -40%;
+    width: 35%;
+    left: 12%;
+    text-align: Left;
     }
 
     #img2{
