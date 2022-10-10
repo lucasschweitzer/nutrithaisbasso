@@ -139,10 +139,10 @@ nav ul li:hover{
 
     .section1text{
         position: absolute;
-    top: -40%;
-    width: 35%;
-    left: 12%;
-    text-align: Left;
+        top: -30%;
+        width: 40%;
+        left: 12%;
+        text-align: Left;
     }
 
     #img2{
