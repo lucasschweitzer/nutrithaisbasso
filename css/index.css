@@ -134,7 +134,7 @@ nav ul li:hover{
     } 
     
     nav ul{
-    margin-right: 10px;
+    margin-right: -10px;
     }
 
     .section1 img{
