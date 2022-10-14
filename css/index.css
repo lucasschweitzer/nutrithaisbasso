@@ -128,7 +128,7 @@ nav ul li:hover{
 
 @media screen and (max-width: 600px) {
     nav{
-        margin-left: 5px;
+        margin-left: 0px;
         margin-right: 5px;
         align-items: left;
     } 
@@ -140,9 +140,10 @@ nav ul li:hover{
     .section1text{
         position: absolute;
         top: -20%;
-        width: 40%;
+        width: 50%;
         left: 12%;
         text-align: Left;
+        font-size: 10px;
     }
 
     #img2{
