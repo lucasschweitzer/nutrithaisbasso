@@ -132,6 +132,10 @@ nav ul li:hover{
         margin-right: 10px;
         align-items: left;
     } 
+    
+    nav ul{
+    margin-right: 10px;
+    }
 
     .section1 img{
         width: 175px;
