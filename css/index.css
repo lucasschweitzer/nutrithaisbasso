@@ -139,7 +139,7 @@ nav ul li:hover{
 
     .section1text{
         position: absolute;
-        top: -35%;
+        top: 35%;
         width: 50%;
         left: 12%;
         text-align: Left;
