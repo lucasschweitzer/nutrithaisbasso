@@ -29,3 +29,83 @@ nav ul li:hover{
     color: #ded0e7;
 
 }
+
+.section1{
+    margin-top: 20px;
+    position: relative;
+    width: 80%px;
+    height: 500px;
+    background-color: #ac3472;
+
+}
+
+.photo{
+    position: absolute;
+    margin-left: 60%;
+    margin-top: 110px;
+
+}
+
+.aboutmetext{
+    position: absolute;
+    width: 580px;
+    text-align: center;
+    margin-left: 400px;
+    margin-top: 100px;
+    color: #493165;
+    background-color: #ded0e7;
+    border-style: inset;
+    border-radius: 200px;
+
+}
+
+.video{
+
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 5%;
+
+}
+
+.footer{
+    border: 1px solid #ded0e7;
+    background-color: #ded0e7;
+    height: 200px;
+    position: relative;
+}
+
+.redessociaisFooter{
+    position: absolute;
+    right: 8%;
+    bottom: 15%;
+}
+
+.logo2{
+    position: absolute;
+    left: 47%;
+    right: 47%;
+    bottom: 25%;
+}
+
+.endereco{
+    position: absolute;
+    text-align: center;
+    color: white;
+    top: 28%;
+    left: 15%;
+}
+
+@media screen and (max-width: 600px) {
+    nav{
+        margin-left: 0px;
+        margin-right: 0px;
+        align-items: left;
+    } 
+
+    .endereco{
+        left: 1%;
+    }
+    .logo2{
+        left: 40%;
+    }
+}
