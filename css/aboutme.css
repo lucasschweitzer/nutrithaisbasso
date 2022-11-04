@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Oswald';
+    src: url(/fonts/Oswald-Regular.ttf);
+    font-family: 'Montserrat';
+    src: url(/fonts/Montserrat-Regular.ttf);
+}
+
 body{
     width: 100%;
     height: 100%;
@@ -33,36 +40,36 @@ nav ul li:hover{
 .section1{
     margin-top: 20px;
     position: relative;
-    width: 80%px;
-    height: 500px;
+    width: 100%;
+    height: 400px;
     background-color: #ac3472;
 
 }
 
 .photo{
     position: absolute;
-    margin-left: 60%;
-    margin-top: 110px;
+    margin-left: 70%;
+    margin-top: 5%;
+    border-radius: 150%;
 
 }
 
 .aboutmetext{
     position: absolute;
-    width: 580px;
+    width: 400px;
     text-align: center;
-    margin-left: 400px;
-    margin-top: 100px;
-    color: #493165;
-    background-color: #ded0e7;
-    border-style: inset;
-    border-radius: 200px;
+    margin-left: 15%;
+    margin-top:5%;
+    font-size: 16px;
+    font-family: 'Oswald';
+    color: white;
 
 }
 
 .video{
 
     text-align: center;
-    margin-top: 150px;
+    margin-top: 5%;
     margin-bottom: 5%;
 
 }
@@ -100,8 +107,24 @@ nav ul li:hover{
         margin-left: 0px;
         margin-right: 0px;
         align-items: left;
-    } 
+    }
 
+    .aboutmetext{
+        width: 200px;
+        font-size: small;
+        margin-left: 5%;
+    }
+
+    .photo{
+        width: 200px;
+        margin-top: 65px;
+        margin-left: 270px;
+    }
+
+    iframe{
+        width: 320px;
+        height: 240px;
+    }
     .endereco{
         left: 1%;
     }
