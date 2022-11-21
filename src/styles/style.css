@@ -1,6 +1,14 @@
 @font-face {
+    font-family: 'League Gothic';
+    src: url(../fonts/LeagueGothic-Regular.ttf);
+}
+
+@font-face {
     font-family: 'Oswald';
     src: url(../fonts/Oswald-Regular.ttf);
+}
+
+@font-face {
     font-family: 'Montserrat';
     src: url(../fonts/Montserrat-Regular.ttf);
 }
@@ -8,12 +16,17 @@
 :root {
     --main-font: 'Montserrat';
     --second-font: 'Oswald';
+    --titles-font: 'League Gothic';
     --pallete-green: #8BC74B;
     --pallete-red: #EE3234;
     --pallete-violet: #AD3173;
     --pallete-violet-dark: #472d65;
     --pallete-violet-light: #A2B1DA;
     --pallete-pink: #EA85BF;
+
+    --pallete-portfolio-first: #493165;
+    --pallete-portfolio-second: #ded0e7;
+
 }
 
 body {
@@ -21,11 +34,27 @@ body {
     height: 100%;
     margin: 0;
     padding: 0;
-    font-family: var(--main-font) !important;
+    font-family: var(--main-font);
+}
+
+h1, h2, h3 {
+    font-family: var(--titles-font);
+}
+
+.fs-1gg {
+    font-size: 4.5rem !important;
 }
 
 .logo {
     height: 80px;
+}
+
+.logo-big {
+    height: 104px;
+}
+
+.navbar-brand, .navbar-brand img {
+    margin: 0;
 }
 
 a i.fab {
@@ -46,7 +75,8 @@ i.fa-15x {
 
 section#aboutMe {
     margin-top: 123px;
-    background-image: linear-gradient(to right, #a2b1da, #ada9de, #c09fdc, #d592d1, #ea85bf);
+    background-color: var(--pallete-portfolio-second);
+    /* background-image: linear-gradient(to right, #a2b1da, #ada9de, #c09fdc, #d592d1, #ea85bf); */
 }
 
 section#aboutMe > div {
@@ -112,38 +142,36 @@ section#aboutMe div #aboutMeText {
 
 }
 
-.footer{
-    border: 1px solid #ded0e7;
-    background-color: #ded0e7;
-    height: 200px;
-    position: relative;
-}
-
-.redessociaisFooter{
-    position: absolute;
-    right: 8%;
-    bottom: 15%;
-}
-
-.logo2{
-    position: absolute;
-    left: 47%;
-    right: 47%;
-    bottom: 25%;
-}
-
-.endereco{
-    position: absolute;
-    text-align: center;
+footer {
+    background-color: var(--pallete-portfolio-second);
     color: white;
-    top: 28%;
-    left: 15%;
 }
+
+footer div#footerHi {
+    background-color: var(--pallete-violet-dark);
+}
+
+i.heart {
+	color: white;
+	animation: beat 1s infinite alternate;
+	transform-origin: center;
+    padding: 0 4px;    
+}
+
+/* Heart beat animation */
+@keyframes beat{
+	to { transform: scale(1.2); }
+}
+
 
 /* medium */
 @media screen and (max-width: 768px) {
     nav #navbarLogo {
-        height: 40px;
+        height: 48px;
+    }
+
+    section#aboutMe {
+        margin-top: 83px;
     }
 
     section#aboutMe > div {
@@ -165,6 +193,10 @@ section#aboutMe div #aboutMeText {
 
     section#aboutMe div #aboutMeText p {
         font-size: 1rem !important;
+    }
+
+    footer #footerLogo {
+        justify-content: center !important;
     }
 }
 
