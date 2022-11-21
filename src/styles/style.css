@@ -140,6 +140,27 @@ section#aboutMe div #aboutMeText {
     nav #navbarLogo {
         height: 40px;
     }
+
+    section#aboutMe > div {
+        flex-direction: column-reverse;
+        padding: 40px .5rem;
+    }
+
+    section#aboutMe div #profile {
+        margin-bottom: 64px;
+
+    }
+
+    section#aboutMe div #aboutMeText {
+        padding: 0 16px;
+        margin-right: 0;
+        text-align: center;
+        font-size: 2rem !important;
+    }
+
+    section#aboutMe div #aboutMeText p {
+        font-size: 1rem !important;
+    }
 }
 
 @media screen and (max-width: 600px) {
