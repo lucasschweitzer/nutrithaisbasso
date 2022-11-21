@@ -24,8 +24,8 @@ body {
     font-family: var(--main-font) !important;
 }
 
-nav #navbarLogo {
-    height: 64px;
+.logo {
+    height: 80px;
 }
 
 a i.fab {
@@ -40,7 +40,12 @@ i.fab:hover {
     transform: scale(1.1);
 }
 
+i.fa-15x {
+    font-size: 1.5rem;
+}
+
 section#aboutMe {
+    margin-top: 123px;
     background-image: linear-gradient(to right, #a2b1da, #ada9de, #c09fdc, #d592d1, #ea85bf);
 }
 
