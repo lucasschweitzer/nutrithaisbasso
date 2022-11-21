@@ -8,23 +8,16 @@
     <link rel="stylesheet" href="src/styles/main.css">
 
     <!-- Font Awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
     <!-- Google Fonts Roboto -->
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
-    />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"/>
     <!-- MDB -->
     <link rel="stylesheet" href="../src/styles/mdb.min.css" />
 </head>
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light px-5 py-3">
-        <!-- Container wrapper -->
-        <div class="container-fluid px-5 container-xl">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div id="navbar-container" class="container-xl d-flex justify-content-between px-2 my-2">
             <!-- Toggle button -->
             <button
                 class="navbar-toggler"
@@ -38,12 +31,13 @@
                 <i class="fas fa-bars"></i>
             </button>
 
+            <!-- Navbar brand -->
+            <a class="navbar-brand" href="#">
+                <img id="navbarLogo" src="../src/images/logo/logo.svg" loading="lazy" />
+            </a>
+
             <!-- Collapsible wrapper -->
-            <div class="collapse navbar-collapse d-flex justify-content-between" id="navbarSupportedContent">
-                <!-- Navbar brand -->
-                <a class="navbar-brand mt-2 mt-lg-0" href="#">
-                    <img src="../src/images/logo/logo.svg" height="80" loading="lazy" />
-                </a>
+            <div id="navbarSupportedContent" class="collapse navbar-collapse flex-grow-0">
                 <!-- Left links -->
                 <ul class="navbar-nav mb-lg-0">
                     <li class="nav-item px-3">
@@ -60,23 +54,18 @@
                     </li>
                 </ul>
                 <!-- Left links -->
-                <!-- Right elements -->
-                <div class="d-flex align-items-center">
-                    <!-- Icon -->
-                    <i class="fab fa-facebook fa-2x px-2"></i>
-                    <i class="fab fa-instagram fa-2x px-2"></i>
-                    <i class="fab fa-whatsapp fa-2x px-2"></i>
-                    <i class="fab fa-youtube fa-2x px-2"></i>
-                </div>
-                <!-- Right elements -->
             </div>
             <!-- Collapsible wrapper -->
+
+            <div id="socialLinks" class="d-flex align-items-center d-none d-lg-block">
+                <i class="fab fa-facebook fa-2x px-2"></i>
+                <i class="fab fa-instagram fa-2x px-2"></i>
+                <i class="fab fa-whatsapp fa-2x px-2"></i>
+                <i class="fab fa-youtube fa-2x px-2"></i>
+            </div>
         </div>
-        <!-- Container wrapper -->
     </nav>
     <!-- Navbar -->
-
-
 
   <nav>
     <div class="logo">

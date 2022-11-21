@@ -9,6 +9,10 @@ nav {
     font-family: var(--main-font);
 }
 
+nav #navbarLogo {
+    height: 64px;
+}
+
 .section1{
     position: relative;
     width: 100%;
@@ -103,6 +107,13 @@ nav {
     color: white;
     top: 28%;
     left: 15%;
+}
+
+/* medium */
+@media screen and (max-width: 768px) {
+    nav #navbarLogo {
+        height: 40px;
+    }
 }
 
 @media screen and (max-width: 600px) {
