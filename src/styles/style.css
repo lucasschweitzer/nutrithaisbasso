@@ -114,9 +114,9 @@ section#acompanhamentoNutricional div.box {
 
 .iFEZzR {
     font-family: var(--titles-font) !important;
-    font-size: 3.5rem;
-    color: var(--mdb-body-color);
-    font-weight: normal;
+    font-size: 3.5rem !important;
+    color: var(--mdb-body-color) !important;
+    font-weight: normal !important;
 }
 
 footer {
