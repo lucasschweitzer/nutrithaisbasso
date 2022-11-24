@@ -97,6 +97,10 @@ section#aboutMe div #aboutMeText {
     height: fit-content;
 }
 
+section#aboutMe button {
+    background-color: var(--pallete-green);
+}
+
 section#acompanhamentoNutricional img {
     object-fit: cover;
     width: 252px;
@@ -143,6 +147,10 @@ i.heart {
 
 /* medium */
 @media screen and (max-width: 768px) {
+    h2, h3 {
+        font-size: 3.5rem !important;
+    }
+
     nav #navbarLogo {
         height: 48px;
     }
@@ -168,8 +176,29 @@ i.heart {
         font-size: 2rem !important;
     }
 
-    section#aboutMe div #aboutMeText p {
-        font-size: 1rem !important;
+    section#aboutMe div #aboutMeText p,
+    section#acompanhamentoNutricional p {
+        font-size: 1.1rem !important;
+    }
+
+    section#acompanhamentoNutricional h3 {
+        margin-top: 3.5rem;
+        text-align: center;
+    }
+
+    section#acompanhamentoNutricional img {
+        object-fit: cover;
+        width: 150px;
+        height: 150px;
+    }
+
+    section#acompanhamentoNutricional div.box {
+        display: block;
+        height: 40px;
+    }
+
+    section#googlEevaluation {
+        padding-top: 0 !important;
     }
 
     footer #footerLogo {
