@@ -119,6 +119,7 @@ section#acompanhamentoNutricional img {
     object-fit: cover;
     width: 252px;
     height: 252px;
+    border-radius: 24px;
 }
 
 section#acompanhamentoNutricional img:not(:first-child) {
