@@ -73,8 +73,22 @@ i.fa-15x {
     font-size: 1.5rem;
 }
 
-section#aboutMe {
+section#header {
     margin-top: 123px;
+}
+
+section#header h1 {
+    font-family: var(--main-font);
+    color: var(--pallete-portfolio-first);
+}
+
+section#header h1 .title {
+    line-height: 128px;
+    font-size: 8rem;
+    font-weight: bold;
+}
+
+section#aboutMe {
     background-color: var(--pallete-portfolio-second);
     /* background-image: linear-gradient(to right, #a2b1da, #ada9de, #c09fdc, #d592d1, #ea85bf); */
 }
@@ -155,8 +169,12 @@ i.heart {
         height: 48px;
     }
 
-    section#aboutMe {
+    section#header {
         margin-top: 83px;
+    }
+
+    section#header h1 .title {
+        font-size: 4rem;
     }
 
     section#aboutMe > div {
@@ -164,9 +182,9 @@ i.heart {
         padding: 40px .5rem;
     }
 
-    section#aboutMe div #profile {
+    section#aboutMe div img#profile {
         margin-bottom: 64px;
-
+        height: 35vh;
     }
 
     section#aboutMe div #aboutMeText {
@@ -179,6 +197,7 @@ i.heart {
     section#aboutMe div #aboutMeText p,
     section#acompanhamentoNutricional p {
         font-size: 1.1rem !important;
+        text-align: center;
     }
 
     section#acompanhamentoNutricional h3 {
